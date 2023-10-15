@@ -1,0 +1,78 @@
+.nav{
+    display: flex;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+}
+
+.nav > li, button{
+    padding: 10px !important;
+}
+
+.nav > li, button{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.nav > li:hover, button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 3px rgba(126, 126, 126, 0.5);
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer > ul{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer > ul > li{
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.footer > ul > li:hover{
+    scale: 1.2;
+    cursor: pointer;
+}
+
+.fac, .ins, .lin, .ema{
+    transition: .5s ease;
+}
+
+.fac:hover{
+    color: #3B5998;
+}
+.ins:hover{
+    color: #E1306C;
+}
+.lin:hover{
+    color: #0e76a8;
+}
+.ema:hover{
+    color: #da1c0e;
+}
+
+
+.nome{
+    padding: 20px;
+    text-align: center;
+}
+
+.nome:hover{
+    cursor: default;
+}

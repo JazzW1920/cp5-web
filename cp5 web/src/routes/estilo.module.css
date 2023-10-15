@@ -1,0 +1,28 @@
+.slideItem {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+main{
+    min-height: 80vh;
+}
+
+a {
+    color: inherit;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #303030;
+    color: #e0e0e0;
+}
